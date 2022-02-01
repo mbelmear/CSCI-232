@@ -1,0 +1,9 @@
+In the array implementation, the find student by index method is the only method that is constant time O(1) as we are just looking for a single person and not iterating through. 
+All of the other methods in both the array and the linked list implementation are linear time or O(n) as we are iterating through, meaning that the more data we have, the more time it takes to iterate through. 
+Knowing this information, we can conclude that objectively, the array implementation is better given the current problem/circumstances as it takes less time.
+However, one might choose the linked list implementation as the best case scenario is O(1), it just depends on where the value we want to find lies within the data, if it is closer to the beginning it will be very quick, however if its towards the end, it may take a while.
+This is especially true of the remove method.  
+In contrast, the array methods that are all linear O(n), and the best case scenario is still linear O(n).
+Bottom line is that if the size of the data set is unknown it is probably best to use the array implementation, however if one knows roughly where a value is within the data set or it is a set of smaller size, then the linked list implementation might be better. 
+
+
